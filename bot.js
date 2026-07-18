@@ -4,6 +4,7 @@ const client = bedrock.createClient({
   host: "BedrockAether.aternos.me", // your Aternos IP
   port: 53569,                   // Bedrock default port
   username: "Online_Bot",            // any name you want
+  offline: true,
   version: "1.26.33.2"
 })
 
