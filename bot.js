@@ -5,7 +5,7 @@ const client = bedrock.createClient({
   port: 53569,                   // Bedrock default port
   username: "Online_Bot",            // any name you want
   offline: true,
-  version: "1.26.33.2"
+  version: "1.26.30"
 })
 
 client.on('join', () => {
